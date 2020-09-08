@@ -17,7 +17,6 @@ for new_user in new_users:
         print(f'Sorry the username {new_user} is already taken.Please create a new username.')
     else:
         print(f'The username {new_user} is availble.')
-        new_users = [itm.lower() for itm in new_users]
 if __name__ == "__main__":
 # I added 'ers' to current_us and new_us.
 # I also moved the current_users and new_users list to lines 5 and 7.
